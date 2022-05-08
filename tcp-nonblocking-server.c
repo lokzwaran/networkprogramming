@@ -20,7 +20,7 @@
     #include <sys/socket.h> 
     #include <sys/wait.h> 
     #include <fcntl.h> /* Added for the nonblocking socket */
-
+    #include <arpa/inet.h>
     #define MYPORT 3456    /* the port users will be connecting to */
     #define BACKLOG 10     /* how many pending connections queue will hold */
 
